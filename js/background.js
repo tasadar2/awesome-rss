@@ -55,6 +55,8 @@ async function openFeed({feed, target = 'current', service = 'rss', index = unde
 		url.searchParams.set('a', 'add');
 		url.searchParams.set('url_rss', feed);
 		break;
+	case 'feedProtocol':
+		url = new URL(`feed:${feed}`);
 	default:
 		url = new URL(feed);
 	}

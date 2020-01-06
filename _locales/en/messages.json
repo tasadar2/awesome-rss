@@ -59,6 +59,10 @@
     "message": "Subscribe using Inoreader",
     "description": "Title attribute for input to select Inoreader as subscription option"
   },
+  "title@feedProtocolSubscribe": {
+    "message": "Subscribe using feed protocol",
+    "description": "Title attribute for input to select fed protocol as subscription option"
+  },
   "popupOptionsLegend": {
     "message": "Popup Options",
     "description": "Text for popup options section `<legend>`"
